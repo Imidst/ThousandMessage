@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<!-- saved from url=(0067)http://gansu.chinamde.cn/querycre.html?recordId=2115192812559604320 -->
+<html style="font-size: 100px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	
+
+	<title></title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+	<title></title>
+
+
+
+	<style type="text/css">
+
+		* {
+
+			margin: 0;
+
+			padding: 0;
+
+		}
+
+
+
+		.clearfix:after {
+
+			content: '';
+
+			display: block;
+
+			clear: both;
+
+		}
+
+
+
+		.clearfix {
+
+			zoom: 1;
+
+
+
+
+
+		}
+
+
+
+		.bg {
+
+			position: fixed;
+
+			top: 0;
+
+			left: 0;
+
+			right: 0;
+
+			bottom: 0;
+
+			background: url(img/bg.png) repeat;
+
+		}
+
+
+
+		.mCon {
+
+			position: fixed;
+
+			top: 0.7rem;
+
+			left: 0.25rem;
+
+			right: 0.25rem;
+
+			bottom: 0.7rem;
+
+		}
+
+
+
+		.top {
+
+			width: 100%;
+
+			position: absolute;
+
+			top: 0;
+
+		}
+
+
+
+		.top::before {
+
+			content: '';
+
+			position: absolute;
+
+			width: 1.92rem;
+
+			height: 1.85rem;
+
+			background: url(img/topLeft.png) no-repeat;
+
+			background-size: 100% 100%;
+
+			left: -0.1rem;
+
+			top: -0.15rem;
+
+		}
+
+
+
+		.top::after {
+
+			content: '';
+
+			position: absolute;
+
+			width: 1.92rem;
+
+			height: 1.87rem;
+
+			background: url(img/topRight.png) no-repeat;
+
+			background-size: 100% 100%;
+
+			right: -0.23rem;
+
+			top: -0.15rem;
+
+		}
+
+
+
+		.top span {
+
+			position: absolute;
+
+			height: 0.08rem;
+
+			background: url(img/horizontal.png) repeat-x;
+
+			background-size: 0.08rem 0.08rem;
+
+			left: 1.82rem;
+
+			right: 1.7rem;
+
+		}
+
+
+
+		.vertical {
+
+			position: absolute;
+
+			top: 1.7rem;
+
+			bottom: 1.7rem;
+
+			background: url(img/vertical.png) repeat-y;
+
+			width: 0.08rem;
+
+			background-size: 0.08rem 0.08rem;
+
+		}
+
+
+
+		.left {
+
+			left: 0;
+
+		}
+
+
+
+		.right {
+
+			right: 0;
+
+			bottom: 1.6rem;
+
+		}
+
+
+
+		.bottom {
+
+			width: 100%;
+
+			position: absolute;
+
+			bottom: 0.08rem;
+
+		}
+
+
+
+		.bottom::before {
+
+			content: '';
+
+			position: absolute;
+
+			width: 1.93rem;
+
+			height: 1.86rem;
+
+			background: url(img/bottomLeft.png) no-repeat;
+
+			background-size: 100% 100%;
+
+			left: -0.1rem;
+
+			bottom: -0.22rem;
+
+		}
+
+
+
+		.bottom::after {
+
+			content: '';
+
+			position: absolute;
+
+			width: 1.93rem;
+
+			height: 1.87rem;
+
+			background: url(img/bottomRight.png) no-repeat;
+
+			background-size: 100% 100%;
+
+			right: -0.23rem;
+
+			bottom: -0.3rem;
+
+		}
+
+
+
+		.bottom span {
+
+			position: absolute;
+
+			height: 0.08rem;
+
+			background: url(img/horizontal.png) repeat-x;
+
+			background-size: 0.08rem 0.08rem;
+
+			left: 1.82rem;
+
+			right: 1.7rem;
+
+		}
+
+
+
+		.certificate {
+
+			position: absolute;
+
+			top: 50px;
+
+			width: 100%;
+
+			bottom: 0;
+
+		}
+
+
+
+		.logo {
+
+			width: 1.33rem;
+
+			height: 1.33rem;
+
+			overflow: hidden;
+
+			margin: 0 auto;
+
+		}
+
+
+
+		.logo img {
+
+			width: 100%;
+
+			height: 100%;
+
+		}
+
+
+
+		.title1 {
+
+			font-size: 0.28rem;
+
+			color: #000;
+
+			font-weight: bold;
+
+			text-align: center;
+
+			margin: 0.45rem 0 0;
+
+		}
+
+
+
+		.title2 {
+
+			text-align: center;
+
+			font-size: 0.18rem;
+
+			margin: 0.15rem 0 0.25rem;
+
+		}
+
+
+
+		.title2 span {
+
+			position: relative;
+
+			display: inline-block;
+
+			font-size: 0.18rem;
+
+			color: #242424;
+
+		}
+
+
+
+		.title2 span::before {
+
+			content: '';
+
+			position: absolute;
+
+			width: 0.96rem;
+
+			height: 0.15rem;
+
+			background: url(img/titleLeft.png) no-repeat;
+
+			background-size: 100% 100%;
+
+			left: -1rem;
+
+			top: 50%;
+
+			margin-top: -0.08rem;
+
+		}
+
+
+
+		.title2 span::after {
+
+			content: '';
+
+			position: absolute;
+
+			width: 0.98rem;
+
+			height: 0.15rem;
+
+			background: url(img/titleRight.png) no-repeat;
+
+			background-size: 100% 100%;
+
+			right: -1rem;
+
+			top: 50%;
+
+			margin-top: -0.08rem;
+
+		}
+
+
+
+		.title3 {
+
+			font-size: 0.24rem;
+
+			color: #000;
+
+			text-align: center;
+
+		}
+
+
+
+		.resultItem {
+
+			padding: 0 0.5rem 0 1.6rem;
+
+			margin: 0.5rem 0 0;
+
+			font-size: 0.24rem;
+
+			display: flex;
+
+			flex-direction: row;
+
+		}
+
+
+
+		.resultItem span {
+
+			font-size: 0.24rem;
+
+			color: #000;
+
+			line-height: 0.20rem;
+
+			display: inline-block;
+
+		}
+
+
+
+		.resultItem p {
+
+			font-size: 0.24rem;
+
+			color: #000;
+
+			line-height: 0.20rem;
+
+			flex: 1;
+
+		}
+
+
+
+		.searchWebsite {
+
+			position: absolute;
+
+			width: 100%;
+
+			bottom: 0.65rem;
+
+			left: 0;
+
+			text-align: center;
+
+			font-size: 0.24rem;
+
+			color: #000;
+
+		}
+
+	</style>
+
+</head>
+
+
+
+<body class="nojiain">
+
+	<div class="bg">
+
+		<div class="mCon">
+
+			<div class="top"><span></span></div>
+
+			<div class="vertical left"></div>
+
+			<div class="vertical right"></div>
+
+			<div class="bottom"><span></span></div>
+
+			<div class="certificate">
+
+				<div class="logo">
+
+<!--					<img src="img/logo.png">-->
+
+				</div>
+
+				<div class="title1">甘肃省专业技术人员继续教育网络平台</div>
+
+				<div class="title2">国家级专业技术人员继续教育基地(兰州理工大学)</div>
+
+				<div class="title3">(证书查询结果)</div>
+
+				<div class="resultList">
+
+					<div class="resultItem clearfix">
+
+						<span>证书名称：</span>
+
+						<span class="cName">2019年公需课证书</span>
+
+					</div>
+
+					<div class="resultItem clearfix">
+
+						<span>证书编号：</span>
+
+						<span class="numRule">GSZJGX2019167433</span>
+
+					</div>
+
+					<div class="resultItem clearfix">
+
+						<span>姓名：</span>
+
+						<span class="realName">安克祥</span>
+
+					</div>
+
+					<div class="resultItem clearfix">
+
+						<span>身份证号：</span>
+
+						<span class="idCard">622923199009073719</span>
+
+					</div>
+
+					<div class="resultItem clearfix">
+
+						<span>学习年份：</span>
+
+						<span class="years">2019</span>
+
+					</div>
+
+					<!-- <div class="resultItem clearfix">
+
+						<span>完成学分：</span>
+
+						<span class="credit"></span>
+
+					</div> -->
+
+					<div class="resultItem clearfix">
+
+						<span>培训结果：</span>
+
+						<p>合格</p>
+
+					</div>
+
+					<div class="resultItem clearfix">
+
+						<span>查询网址：</span>
+
+						<p class="zsUrl">gs.chinamde.cn</p>
+
+					</div>
+
+				</div>
+
+
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+<script src="./querycre_files/jquery.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="./querycre_files/xcommon1.js"></script>
+
+<script>
+
+	var creId = null;
+
+	var userId = null;
+
+	(function (doc, win) {
+
+		var docEl = doc.documentElement,
+
+			resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+
+			recalc = function () {
+
+				var clientWidth = docEl.clientWidth;
+
+				if (!clientWidth) return;
+
+				if (clientWidth >= 750) {
+
+					docEl.style.fontSize = '100px';
+
+				} else {
+
+					docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+
+				}
+
+			};
+
+		if (!doc.addEventListener) return;
+
+		win.addEventListener(resizeEvt, recalc, false);
+
+		doc.addEventListener('DOMContentLoaded', recalc, false);
+
+	})(document, window);
+
+
+
+
+
+	$(function () {
+
+		getCreDetails();
+		getCertificate();
+
+
+
+	})
+
+	function getCertificate() {
+
+
+
+    var success = function(response) {
+
+
+
+
+
+
+
+        if (response.data != null) {
+			$('.title1').html(response.data.zsTitle);
+			$('.title2').html(response.data.zsfTitle);
+			$('.zsUrl').html(response.data.zsUrl);
+		}
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+    var data = {};
+
+
+
+    MuiUse.ajax(api.getCertificate, data, success);
+
+
+
+}
+
+
+
+	function getCreDetails() {
+
+		var success = function (response) {
+
+			if (response.errorCode == '0000') {
+
+				$('.cName').html(response.data.cName);
+
+				$('.realName').html(response.data.realName);
+
+				$('.idCard').html(response.data.idCard==null?'':response.data.idCard);
+
+				$('.years').html(response.data.year);
+
+				$('.credit').html(response.data.state);
+
+				$('.numRule').html(response.data.numRule);
+
+			}
+
+		}
+
+
+
+		var data = {
+
+			recordId: GetQueryString('recordId')
+
+		};
+
+		MuiUse.ajax(api.getCreDetails, data, success);
+
+	}
+
+
+
+
+
+</script>
+
+
+
+</body></html>
